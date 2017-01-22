@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/swiper.min.css">	
+	<link rel="stylesheet" href="css/style.css">	
+
+	
+</head>
+<body>
+
+<nav class="navbar navbar-default hidden-lg" role="navigation">
+    <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                data-target="#example-navbar-collapse">
+            <span class="sr-only">切换导航</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img src="images/logo1.png" alt=""></a>
+    </div>
+    <div class="collapse navbar-collapse" id="example-navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    設計案例<b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">jmeter</a></li>
+                    <li><a href="#">EJB</a></li>
+                    <li><a href="#">Jasper Report</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">分离的链接</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">另一个分离的链接</a></li>
+                </ul>
+            </li>
+            <li><a href="#">服務標準</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    設計主張<b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">jmeter</a></li>
+                    <li><a href="#">EJB</a></li>
+                    <li><a href="#">Jasper Report</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">分离的链接</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">另一个分离的链接</a></li>
+                </ul>
+            </li>
+            <li><a href="#">設計主張</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    關於我們<b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">jmeter</a></li>
+                    <li><a href="#">EJB</a></li>
+                    <li><a href="#">Jasper Report</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">分离的链接</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">另一个分离的链接</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    新聞快訊<b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">jmeter</a></li>
+                    <li><a href="#">EJB</a></li>
+                    <li><a href="#">Jasper Report</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">分离的链接</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">另一个分离的链接</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    裝修百科<b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">jmeter</a></li>
+                    <li><a href="#">EJB</a></li>
+                    <li><a href="#">Jasper Report</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">分离的链接</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">另一个分离的链接</a></li>
+                </ul>
+            </li>
+            <li><a href="#">聯繫我們</a></li>
+            <li><a href="#">收費標準</a></li>
+        </ul>
+    </div>
+    </div>
+</nav>
+
+<div class="top visible-lg-block">
+	<div class="w-1200">
+		<img src="images/logo.png" alt="">
+		<img src="images/title2.png" alt="">
+		<div class="top-right">
+			<h1 class="top-num">
+				<a href=""></a>
+				<p>0532-85850312</p>
+			</h1>
+			<div class="top-qq">
+				<a href=""></a>
+				<p>12345</p>
+			</div>
+			<div class="top-weixin">
+				<a href=""></a>
+				<p><img src="images/wx.jpg" alt=""></p>
+			</div>
+			<div class="top-weibo">
+				<a href=""></a>
+				<p>0532-85850312</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="myCarousel" class="carousel slide">
+	<div class="nav-all visible-lg-block">
+		<ul id="nav" class="nav clearfix w-1200">
+			<li class="nLi home">
+				<h3><a href="" target="_blank">首頁</a></h3>
+			</li>
+			<li class="nLi">
+					<h3><a href="" target="_blank">設計案例 <img src="images/cart.png" alt=""></a></h3>
+					<ul class="sub">
+						<span></span>
+						<li><a href="#">新聞首頁</a></li>
+						<li><a href="#">新聞人物</a></li>
+					</ul>
+			</li>
+			<li class="nLi on">
+			<!-- 假设当前频道为“预告片”，手动或后台程序添加titOnClassName类名（默认是'on'），相当于设置参数defaultIndex:1。若同时设置参数returnDefault:true，则鼠标移走后0.3秒返回当前频道 -->
+					<h3><a href="" target="_blank">服務標準 <img src="images/cart.png" alt=""></a></h3>
+					<ul class="sub">
+						<span></span>
+						<li><a href="#">服務流程</a></li>
+						<li><a href="#">常見問題</a></li>
+						<li><a href="#">特別聲明</a></li>
+					</ul>
+			</li>
+			<li class="nLi">
+				<h3><a href="" target="_blank">設計主張</a></h3>
+			</li>
+			<li class="nLi">
+					<h3><a href="" target="_blank">關於我們 <img src="images/cart.png" alt=""></a></h3>
+					<ul class="sub">
+						<span></span>
+						<li><a href="#">新闻首页</a></li>
+						<li><a href="#">新闻人物</a></li>
+					</ul>
+			</li>
+			<li class="nLi">
+					<h3><a href="" target="_blank">新聞快訊 <img src="images/cart.png" alt=""></a></h3>
+					<ul class="sub">
+						<span></span>
+						<li><a href="#">新闻首页</a></li>
+						<li><a href="#">新闻人物</a></li>
+						<li><a href="#">新闻电视</a></li>
+						<li><a href="#">新闻图片</a></li>
+					</ul>
+			</li>
+			<li class="nLi ">
+					<h3><a href="" target="_blank">裝修百科 <img src="images/cart.png" alt=""></a></h3>
+					<ul class="sub">
+						<span></span>
+						<li><a href="#">新闻首页</a></li>
+						<li><a href="#">新闻人物</a></li>
+						<li><a href="#">新闻电视</a></li>
+						<li><a href="#">新闻图片</a></li>
+					</ul>
+			</li>
+			<li class="nLi">
+				<h3><a href="" target="_blank">聯繫我們</a></h3>
+			</li>
+			<li class="nLi">
+				<h3><a href="" target="_blank">收費標準</a></h3>
+			</li>
+		</ul>
+	</div>
+	<img src="images/banner1.jpg" alt="" style="width:100%;">
+</div> 
+<div class="all-bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3" id="left">
+				<div class=" left-all">
+					<h3>裝修百科</h3>
+					<ul>
+						<li><a href="">案例賞析</a></li>
+						<li><a href="">中式資訊</a></li>
+						<li><a href="">軟裝配飾</a></li>
+						<li><a href="">家居風水</a></li>
+					</ul>
+					<img src="images/left-logo.jpg" alt="" class="visible-lg-block">
+				</div>
+			</div>
+			<div class="col-md-9">
+			<div class="row">
+						<div class=" col-xs-12">
+							<div id="right">
+								
+								<h1 class="col-sm-12"><img src="images/right-logo.jpg" alt=""><span>DESIGN设计案例</span></h1>
+								<h2 class="col-sm-12">版权声明：以下发表案例均为乾元坤和原创作品，享版权所有，侵权必究！</h2>
+								<div class="block2-box right-block2-box row">
+									<div class="col-md-4 col-sm-6 col-xs-12">
+										<div class="block2-img">
+											<a href="">
+												<img src="images/pro.jpg" alt="">
+											</a>
+										</div>
+										<p><a href="">河南商丘设计方案—黛韵<br>描述藐視描述描述</a></p>
+										
+									</div>
+									<div class="col-md-4 col-sm-6 col-xs-12">
+										<div class="block2-img">
+											<a href="">
+												<img src="images/pro.jpg" alt="">
+											</a>
+										</div>
+										<p><a href="">河南商丘设计方案—黛韵<br>描述藐視描述描述</a></p>
+										
+									</div>
+															<div class="col-md-4 col-sm-6 col-xs-12">
+										<div class="block2-img">
+											<a href="">
+												<img src="images/pro.jpg" alt="">
+											</a>
+										</div>
+										<p><a href="">河南商丘设计方案—黛韵<br>描述藐視描述描述</a></p>
+										
+									</div>
+															<div class="col-md-4 col-sm-6 col-xs-12">
+										<div class="block2-img">
+											<a href="">
+												<img src="images/pro.jpg" alt="">
+											</a>
+										</div>
+										<p><a href="">河南商丘设计方案—黛韵<br>描述藐視描述描述</a></p>
+										
+									</div>
+															<div class="col-md-4 col-sm-6 col-xs-12">
+										<div class="block2-img">
+											<a href="">
+												<img src="images/pro.jpg" alt="">
+											</a>
+										</div>
+										<p><a href="">河南商丘设计方案—黛韵<br>描述藐視描述描述</a></p>
+										
+									</div>
+															<div class="col-md-4 col-sm-6 col-xs-12">
+										<div class="block2-img">
+											<a href="">
+												<img src="images/pro.jpg" alt="">
+											</a>
+										</div>
+										<p><a href="">河南商丘设计方案—黛韵<br>描述藐視描述描述</a></p>
+										
+									</div>
+								</div>
+								<p class="fy"><span>第一页</span><a href="">1</a><a href="">2</a><a href="">...</a><a href="">尾页</a>
+									<span>/共50条</span>
+								</p>
+							</div>
+
+				    	</div>
+			</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center footer-nav">
+				<span><a href="">網站首頁</a></span>
+				<span><a href="">設計案例</a></span>
+				<span><a href="">服務標準</a></span>
+				<span><a href="">設計主張</a></span>
+				<span><a href="">關於我們</a></span>
+				<span><a href="">新聞快訊</a></span>
+				<span><a href="">裝修百科</a></span>
+				<span><a href="">聯繫我們</a></span>
+				<span><a href="">收費標準</a></span>
+			</div>
+			<div class="col-sm-3 text-right visible-lg-block">
+				<a href=""><img src="images/footer-logo.png" alt=""></a>
+			</div>
+			<div class="col-sm-5 text-center footer-address">
+				<h3>青岛乾元坤和中式设计</h3>
+				<p>电话：0532-85850312</p>
+				<p>客服QQ：2777944589</p>
+				<p>地址：青岛市市北区福州北路汤米公馆1-1-9</p>
+				<p>信息产业部备案号：鲁ICP备13001663号</p>
+			</div>
+			<div class="footer-ww col-md-4 visible-sm-block">
+				<div class="clearfix" style="width:100%;">
+					<div class=""><img src="images/ewm.png" alt=""></div>
+					<div class="footer-wx">
+						<h3>微信</h3>
+						<p>扫描二维码</p>
+						<p>获取更多设计资讯</p>
+					</div>
+				</div>
+				<p class="footer-wb"><img src="images/wb.png" alt=""><a href="">进入乾元坤和官方微博</a></p>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/swiper.jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/super.js"></script>	
+<script src="js/style.js"></script>		
+
+</body>
+</html>

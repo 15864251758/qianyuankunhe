@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/swiper.min.css">	
+	<link rel="stylesheet" href="css/style.css">	
+
+	
+</head>
+<body>
+
+<nav class="navbar navbar-default hidden-lg" role="navigation">
+    <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                data-target="#example-navbar-collapse">
+            <span class="sr-only">切换导航</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img src="images/logo1.png" alt=""></a>
+    </div>
+    <div class="collapse navbar-collapse" id="example-navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    設計案例<b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">jmeter</a></li>
+                    <li><a href="#">EJB</a></li>
+                    <li><a href="#">Jasper Report</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">分离的链接</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">另一个分离的链接</a></li>
+                </ul>
+            </li>
+            <li><a href="#">服務標準</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    設計主張<b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">jmeter</a></li>
+                    <li><a href="#">EJB</a></li>
+                    <li><a href="#">Jasper Report</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">分离的链接</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">另一个分离的链接</a></li>
+                </ul>
+            </li>
+            <li><a href="#">設計主張</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    關於我們<b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">jmeter</a></li>
+                    <li><a href="#">EJB</a></li>
+                    <li><a href="#">Jasper Report</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">分离的链接</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">另一个分离的链接</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    新聞快訊<b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">jmeter</a></li>
+                    <li><a href="#">EJB</a></li>
+                    <li><a href="#">Jasper Report</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">分离的链接</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">另一个分离的链接</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    裝修百科<b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">jmeter</a></li>
+                    <li><a href="#">EJB</a></li>
+                    <li><a href="#">Jasper Report</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">分离的链接</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">另一个分离的链接</a></li>
+                </ul>
+            </li>
+            <li><a href="#">聯繫我們</a></li>
+            <li><a href="#">收費標準</a></li>
+        </ul>
+    </div>
+    </div>
+</nav>
+
+<div class="top visible-lg-block">
+	<div class="w-1200">
+		<img src="images/logo.png" alt="">
+		<img src="images/title2.png" alt="">
+		<div class="top-right">
+			<h1 class="top-num">
+				<a href=""></a>
+				<p>0532-85850312</p>
+			</h1>
+			<div class="top-qq">
+				<a href=""></a>
+				<p>12345</p>
+			</div>
+			<div class="top-weixin">
+				<a href=""></a>
+				<p><img src="images/wx.jpg" alt=""></p>
+			</div>
+			<div class="top-weibo">
+				<a href=""></a>
+				<p>0532-85850312</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="myCarousel" class="carousel slide">
+	<div class="nav-all visible-lg-block">
+		<ul id="nav" class="nav clearfix w-1200">
+			<li class="nLi home">
+				<h3><a href="" target="_blank">首頁</a></h3>
+			</li>
+			<li class="nLi">
+					<h3><a href="" target="_blank">設計案例 <img src="images/cart.png" alt=""></a></h3>
+					<ul class="sub">
+						<span></span>
+						<li><a href="#">新聞首頁</a></li>
+						<li><a href="#">新聞人物</a></li>
+					</ul>
+			</li>
+			<li class="nLi on">
+			<!-- 假设当前频道为“预告片”，手动或后台程序添加titOnClassName类名（默认是'on'），相当于设置参数defaultIndex:1。若同时设置参数returnDefault:true，则鼠标移走后0.3秒返回当前频道 -->
+					<h3><a href="" target="_blank">服務標準 <img src="images/cart.png" alt=""></a></h3>
+					<ul class="sub">
+						<span></span>
+						<li><a href="#">服務流程</a></li>
+						<li><a href="#">常見問題</a></li>
+						<li><a href="#">特別聲明</a></li>
+					</ul>
+			</li>
+			<li class="nLi">
+				<h3><a href="" target="_blank">設計主張</a></h3>
+			</li>
+			<li class="nLi">
+					<h3><a href="" target="_blank">關於我們 <img src="images/cart.png" alt=""></a></h3>
+					<ul class="sub">
+						<span></span>
+						<li><a href="#">新闻首页</a></li>
+						<li><a href="#">新闻人物</a></li>
+					</ul>
+			</li>
+			<li class="nLi">
+					<h3><a href="" target="_blank">新聞快訊 <img src="images/cart.png" alt=""></a></h3>
+					<ul class="sub">
+						<span></span>
+						<li><a href="#">新闻首页</a></li>
+						<li><a href="#">新闻人物</a></li>
+						<li><a href="#">新闻电视</a></li>
+						<li><a href="#">新闻图片</a></li>
+					</ul>
+			</li>
+			<li class="nLi ">
+					<h3><a href="" target="_blank">裝修百科 <img src="images/cart.png" alt=""></a></h3>
+					<ul class="sub">
+						<span></span>
+						<li><a href="#">新闻首页</a></li>
+						<li><a href="#">新闻人物</a></li>
+						<li><a href="#">新闻电视</a></li>
+						<li><a href="#">新闻图片</a></li>
+					</ul>
+			</li>
+			<li class="nLi">
+				<h3><a href="" target="_blank">聯繫我們</a></h3>
+			</li>
+			<li class="nLi">
+				<h3><a href="" target="_blank">收費標準</a></h3>
+			</li>
+		</ul>
+	</div>
+	<img src="images/banner1.jpg" alt="" style="width:100%;">
+</div> 
+<div class="all-bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3" id="left">
+				<div class=" left-all">
+					<h3>關於我們</h3>
+					<ul>
+						<li><a href="">公司簡介</a></li>
+						<li><a href="">創始人</a></li>
+					</ul>
+					<img src="images/left-logo.jpg" alt="" class="visible-lg-block">
+				</div>
+			</div>
+			<div class="col-md-9">
+			<div class="row">
+				<div class=" col-xs-12">
+					<div id="right">						
+						<h1 class="col-sm-12"><img src="images/right-logo.jpg" alt=""><span>DESIGN设计案例</span></h1>
+						<img src="images/about.jpg" alt="" style="width:100%;">
+						<div class="about">
+							<p> 乾元坤和中式设计机构作为一家专门从事中式设计、中式装修、软装配饰为一体的专业中式设计机构。</p>
+							<p>乾元坤和致力于为客户提供详细的施工图、效果图、软装配饰及工程预算一体化的服务。以专业的设计，认真负责的全程艺术指导服务，使客户满意度最大化。努力将中式设计、中式装修、中式软装配饰完美融合，打造精致、完美的整体中式空间。</p>
+							<p>乾元坤和中式设计机构，专注中式十七年。至今已设计完成数百套方案，业务遍及全国。设计项目涵盖了高端住宅、豪宅别墅、茶楼茶馆、酒店餐饮、会所公馆、售楼处、样板间、办公空间、家具展厅等各类型项目。</p>
+							<p>乾元坤和中式设计机构拥有国内最专业的中式设计团队，面对每一个项目，乾元坤和都会成立“项目专案小组”。由资深高级设计师领衔，依托深厚的职业素养和长期的实战经验，从专业的角度出发，对项目进行深入研究与考察。从空间、光线、色彩、质地、结构、细部实用性等方面，做精准的分析和把握，在保证舒适性的前提下不断创新，确保每套方案都是独一无二的。</p>
+							<p>乾元坤和中式设计机构自成立以来通过自身的努力和对设计师的优化重组，目前乾元坤和中式设计机构拥有12个中式设计组，设计风格涵盖：古典中式，简约中式，现代中式，新中式等，业务范围涵盖：家居空间、别墅豪宅、茶楼茶馆、售楼处样板间、私人会馆、娱乐休闲、商业卖场、酒店宾馆、餐饮空间、办公空间、美容SPA健身空间、园林景观、等领域。</p>
+							<p>乾元坤和中式设计机构信条：天道酬勤, 敬天爱人！</p>
+						</div>
+					</div>
+		    	</div>
+			</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center footer-nav">
+				<span><a href="">網站首頁</a></span>
+				<span><a href="">設計案例</a></span>
+				<span><a href="">服務標準</a></span>
+				<span><a href="">設計主張</a></span>
+				<span><a href="">關於我們</a></span>
+				<span><a href="">新聞快訊</a></span>
+				<span><a href="">裝修百科</a></span>
+				<span><a href="">聯繫我們</a></span>
+				<span><a href="">收費標準</a></span>
+			</div>
+			<div class="col-sm-3 text-right visible-lg-block">
+				<a href=""><img src="images/footer-logo.png" alt=""></a>
+			</div>
+			<div class="col-sm-5 text-center footer-address">
+				<h3>青岛乾元坤和中式设计</h3>
+				<p>电话：0532-85850312</p>
+				<p>客服QQ：2777944589</p>
+				<p>地址：青岛市市北区福州北路汤米公馆1-1-9</p>
+				<p>信息产业部备案号：鲁ICP备13001663号</p>
+			</div>
+			<div class="footer-ww col-md-4 visible-sm-block">
+				<div class="clearfix" style="width:100%;">
+					<div class=""><img src="images/ewm.png" alt=""></div>
+					<div class="footer-wx">
+						<h3>微信</h3>
+						<p>扫描二维码</p>
+						<p>获取更多设计资讯</p>
+					</div>
+				</div>
+				<p class="footer-wb"><img src="images/wb.png" alt=""><a href="">进入乾元坤和官方微博</a></p>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/swiper.jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/super.js"></script>	
+<script src="js/style.js"></script>		
+
+</body>
+</html>
